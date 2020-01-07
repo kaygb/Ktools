@@ -1,0 +1,182 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+
+
+
+
+
+
+/*  其它 begin */
+.container {
+	max-width: 1000px;
+}
+
+.picurl>input {
+	height: 50px;
+}
+
+.picurl>input {
+	font-size: 20px;
+	text-align: center;
+}
+
+.picurl span {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-webkit-touch-callout: none;
+}
+
+.mselector {
+	display: inline-block;
+}
+
+.mselector>input {
+	opacity: 0;
+	width: 177px;
+	height: 57px;
+	position: absolute;
+	display: inline-block;
+}
+
+.preview {
+	display: none;
+}
+
+.preview>img {
+	max-width: 100%;
+	max-height: 450px;
+}
+
+textarea.form-control {
+	resize: none;
+	height: 188px;
+}
+/*  其它 end */
+
+
+div.message ul {
+  float: left;
+  padding: 0;
+  width: 100%;
+}
+
+div.message li {
+  border: solid 1px #fff;
+  text-align: center;
+  list-style: none;
+  float: left;
+  width: 22%;
+  height: 200px;
+  margin: 3px;
+  position: relative;
+}
+.imgPreview {
+  margin-top: 5%;
+  max-width: 90%;
+  max-height: 80%;
+}
+img {
+  vertical-align: middle;
+}
+.progress {
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  width: 90%;
+  padding: 1px;
+  border-radius: 3px;
+  float: center;
+  margin-bottom: 5px;
+}
+.bar {
+  background-color: #428bca;
+  display: block;
+  width: 0%;
+  height: 36px;
+  border-radius: 3px;
+  float: left;
+}
+.percent {
+  position: absolute;
+  height: 36px;
+  display: inline-block;
+  left: 2%;
+  color: #fff;
+}
