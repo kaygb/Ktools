@@ -5,7 +5,7 @@ include_once('config.php');
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Ktools-在线工具KAYGB</title>
+    <title>Ktools在线工具-KAYGB</title>
     <!--SEO相关-->
     <meta name="keywords" content="Ktools,在线工具箱,PHP在线工具箱,在线MD5加密,在线FTP,免费图床">
     <meta name="description" content="一款基于PHP纯手打的在线工具箱，支持在线MD5加密，在线FTP链接，免费图床等多种功能，持续开发中！">
