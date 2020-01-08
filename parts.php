@@ -23,6 +23,13 @@
                 
             
             </div>
+            <div class="col-md-4">
+                <div class="tools">
+                    <a class="" href="/parts/qqimage.php">QQ头像解析</a>
+                </div>
+                
+            
+            </div>
         
         </div>
         
