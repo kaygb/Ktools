@@ -5,9 +5,9 @@ include_once('config.php');
 <html>
 <head>
     <meta charset="utf-8">
-    <title>在线工具箱-KAYGB</title>
+    <title>Ktools-在线工具KAYGB</title>
     <!--SEO相关-->
-    <meta name="keywords" content="在线工具箱,PHP在线工具箱,在线MD5加密,在线FTP,免费图床">
+    <meta name="keywords" content="Ktools,在线工具箱,PHP在线工具箱,在线MD5加密,在线FTP,免费图床">
     <meta name="description" content="一款基于PHP纯手打的在线工具箱，支持在线MD5加密，在线FTP链接，免费图床等多种功能，持续开发中！">
     
     <link rel="icon" type="image/ico" href="//cdn.v2ex.com/gravatar/4cc893d113dd74ceca73f9863f2c5446/">
@@ -26,7 +26,7 @@ include_once('config.php');
     <div class="header-bar">
 		<div class="container">
 		    <!--<span class="kaygb" style="color:#f05050"><i class="fas fa-cogs"></i>&nbsp;在线工具 </span> -->
-		    <a href="//<?php echo constant("TOOLS_URL");?>" style="color:#f05050" class="kaygb"><i class="fas fa-cogs"></i>&nbsp;在线工具 </a>
+		    <a href="//<?php echo constant("TOOLS_URL");?>" style="color:#f05050" class="kaygb"><i class="fas fa-cogs"></i>&nbsp;Ktools在线工具 </a>
             <a href="//kaygb.top" target="_blank" class="kaygb"><i class="fas fa-home"></i>&nbsp;HOME </a>
             <a href="//<?php echo constant("TOOLS_URL");?>/status.php" target="" class="kaygb"><i class="fas fa-bullseye"></i>&nbsp;状态 </a>
 			
