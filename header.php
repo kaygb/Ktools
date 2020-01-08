@@ -26,8 +26,9 @@ include_once('config.php');
     <div class="header-bar">
 		<div class="container">
 		    <!--<span class="kaygb" style="color:#f05050"><i class="fas fa-cogs"></i>&nbsp;在线工具 </span> -->
-		    <a href="//tools.kaygb.top" style="color:#f05050" class="kaygb"><i class="fas fa-cogs"></i>&nbsp;在线工具 </a>
-			<a href="//kaygb.top" target="_blank" class="kaygb"><i class="fas fa-home"></i>&nbsp;HOME </a>
+		    <a href="//<?php echo constant("TOOLS_URL");?>" style="color:#f05050" class="kaygb"><i class="fas fa-cogs"></i>&nbsp;在线工具 </a>
+            <a href="//kaygb.top" target="_blank" class="kaygb"><i class="fas fa-home"></i>&nbsp;HOME </a>
+            <a href="//<?php echo constant("TOOLS_URL");?>/status.php" target="" class="kaygb"><i class="fas fa-bullseye"></i>&nbsp;状态 </a>
 			
 		</div>
 	</div>
