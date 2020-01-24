@@ -2,17 +2,7 @@
 include_once('../header.php');
 ?>
 <style>
-       body {
-            background-image: url(https://acg.toubiec.cn/acgurl?cid=acg&return=ssl);
-            /*overflow-y: scroll;*/
-            background-repeat: no-repeat; /*不平铺*/
-            background-attachment: fixed; /*北景图片固定*/
-            background-position: center 0px; /*居中*/
-       }
-       .header,.footer{
-           background: rgba(255,255,255,.8);
-           padding: 20px;
-       }
+       
        </style>
     <div id="wrap" class="container">
         <div >

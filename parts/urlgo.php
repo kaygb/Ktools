@@ -3,15 +3,16 @@ include_once('../header.php');
 
 ?>
 <div id="wrap" class="container">
-    <h2 style="text-align:center;">链接地址转换</h2>
+
     <div class="tools">
+    <h2 style="text-align:center;">链接地址转换</h2>
         <form id="" action="" method="post" accept-charset="utf-8">
             <style>
                 #text{
                     width: 100%;
                 }
             </style>
-        <textarea type="text" class="tools" name="text" id="text" value="" placeholder="请输入图片链接"></textarea>
+        <textarea type="text" class="tools" name="text" id="text" value="" placeholder="请输入图片链接(http&https)"></textarea>
         <button type="submit" name="sub" class="btn btn-success">转换</button>
         <button type="reset" name="sub" class="btn btn-danger">重置</button>
     </form>
@@ -30,7 +31,7 @@ include_once('../header.php');
         echo '<img src="'.$urlgo.'"/>';
         exit;
     }else {
-        echo "将链接转换为写作需要的格式";
+        echo "将链接转换为写作需要的格式,请输入正确的图片链接地址，如预览失败，请修改链接。";
     }
     ?>
     </p>

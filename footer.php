@@ -3,8 +3,9 @@
         <div class="row">
             <div class="col-md-12 tools-footer">
             &copy; <?php echo Date('Y'); ?>
-            <a href="https://github.com/kaygb/Ktools" target="_blank"> Ktools</a>
-                Powered By <a href="https://kaygb.top" target="_blank">KAYGB</a>
+            <a href="https://github.com/kaygb/Ktools" target="_blank"> Ktools</a> | 
+                Powered By <a href="https://kaygb.top" target="_blank">KAYGB</a> | 
+                ImagesAPI: <a href="https://www.toubiec.cn/164.html" target="_blank" rel="nofollow">苏晓晴</a> | 
                 <span>持续开发中。。。</span>
             </div>
         </div>
@@ -16,6 +17,9 @@
             /*bottom: 0;*/
             margin-top: 200px;
             text-align: center;
+        }
+        .tools-footer a{
+            color:red;
         }
     </style>
     

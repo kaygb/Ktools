@@ -3,8 +3,9 @@ include_once('../header.php');
 
 ?>
 <div id="wrap" class="container">
-    <h2 style="text-align:center;">在线MD5加密</h2>
+    
     <div class="tools">
+    <h2 style="text-align:center;">在线MD5加密</h2>
         <form id="" action="" method="post" accept-charset="utf-8">
             <style>
                 #text{
