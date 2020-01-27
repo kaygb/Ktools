@@ -8,9 +8,12 @@
                 Powered By <a href="https://kaygb.top" target="_blank">KAYGB</a> | 
                 ImagesAPI: <a href="https://www.toubiec.cn/164.html" target="_blank" rel="nofollow">苏晓晴</a> | 
                 <span>持续开发中。。。</span><br>
-                <?php 
-include_once('visitor.php');
-?>
+                <?php include_once('config.php');
+
+                if ($ktools_visitor == true){
+                    include_once('visitor.php'); 
+                }
+                ?>
             </div>
         </div>
         
