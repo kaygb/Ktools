@@ -14,7 +14,7 @@ include_once('config.php');
     <link rel="stylesheet" href="//<?php echo constant("TOOLS_URL");?>/style.css?v=[<?php echo date('Ymd.his');?>]"/>
     <!--bootstrp4 css-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+    <link href="https://cdn.staticfile.org/font-awesome/5.12.0/css/all.css" rel="stylesheet">
         <!--image css-->
     <link href="//<?php echo constant("TOOLS_URL");?>/static/css/jumbotron-narrow.css" rel="stylesheet">
         <!-- 新 Bootstrap4 核心 CSS 文件 -->
