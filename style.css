@@ -49,12 +49,8 @@
 			position: fixed;
 			top: 0;
 			z-index: 1000;
-			box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
+			box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
 		}
-		/*.mdui-container{*/
-		/*    max-width: 1000px;*/
-		/*    margin: 0 auto;*/
-		/*}*/
 		.kaygb{
 			line-height: 50px;
 			font-size: 1.2em;
@@ -76,11 +72,19 @@
 		
 	
 		.tools{
-		    border: 5px solid rgba(238,238,238,0.8);
+		    /* border: 5px solid rgba(238,238,238,0.8); */
 		    margin: 10px;
 		    padding: 20px;
 			text-align: center;
 			background: rgba(255,255,255,0.8);
+		}
+		.tools h2 a:hover{
+			color: #f05050;
+			text-decoration: none;
+		}
+		.tools h2 a:link,.tools h2 a:visited,.tools h2 a:active{
+			color: #000;
+			text-decoration: none;
 		}
 
 		body {
@@ -93,4 +97,10 @@
        .header,.footer,.tools-footer{
            background: rgba(255,255,255,.8);
            padding: 20px;
-       }
+	   }
+	   .tools h2{
+		   font-size: 26px;
+	   }
+	   .tools p{
+		font-size: 13px;
+	}
