@@ -1,106 +1,136 @@
 /*全局*/
+
+
 /*滚动条的宽度*/
 
-    ::-webkit-scrollbar {
-        width:5px;
-        height:9px;
-    }
+ ::-webkit-scrollbar {
+    width: 5px;
+    height: 9px;
+}
+
 
 /*外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果*/
 
-    ::-webkit-scrollbar-track {
-        width: 6px;
-        background-color:#fff;
-        /*-webkit-border-radius: 2em;*/
-        /*-moz-border-radius: 2em;*/
-        /*border-radius:2em;*/
-    }
+ ::-webkit-scrollbar-track {
+    width: 6px;
+    background-color: #fff;
+    /*-webkit-border-radius: 2em;*/
+    /*-moz-border-radius: 2em;*/
+    /*border-radius:2em;*/
+}
+
 
 /*滚动条的设置*/
 
-    ::-webkit-scrollbar-thumb {
-        background-color:#f05050;
-        background-clip:padding-box;
-        min-height:28px;
-        /*-webkit-border-radius: 2em;*/
-        /*-moz-border-radius: 2em;*/
-        /*border-radius:2em;*/
-    }
+ ::-webkit-scrollbar-thumb {
+    background-color: #f05050;
+    background-clip: padding-box;
+    min-height: 28px;
+    /*-webkit-border-radius: 2em;*/
+    /*-moz-border-radius: 2em;*/
+    /*border-radius:2em;*/
+}
+
+
 /*滚动条移上去的背景*/
 
-    ::-webkit-scrollbar-thumb:hover {
-         background-color:#eee;
-    }
-	body{
-		    background: #fff;
-		    /*min-height: 1000px;*/
-		    overflow-y: scroll;
-		}
-	#wrap{
-	    margin-top: 80px;
-	    /*min-height: 1000px;*/
-	    
-	}
-/*全局结束*/
-.header-bar{
-			width: 100%;
-			height: 50px;
-			background: #fff;
-			position: fixed;
-			top: 0;
-			z-index: 1000;
-			/* box-shadow: 0px 0px 5px rgba(0,0,0,0.5); */
-		}
-		.kaygb{
-			line-height: 50px;
-			font-size: 1.2em;
-			color: #000;
-			text-decoration: none;
-			padding-right: 20px;
-		}
-		.kaygb:hover,.kaygb:link,.kaygb:visited,.kaygb:active{
-			color: #000;
-			text-decoration: none;
-		}
-		a{
-		    text-decoration: none;
-		}
-		a:hover,a:link,a:visited,a:active{
-			color: #000;
-			text-decoration: none;
-		}
-		
-	
-		.tools{
-		    /* border: 5px solid rgba(238,238,238,0.8); */
-		    margin: 10px;
-		    padding: 20px;
-			text-align: center;
-			background: rgba(255,255,255,0.8);
-		}
-		.tools h2 a:hover{
-			color: #f05050;
-			text-decoration: none;
-		}
-		.tools h2 a:link,.tools h2 a:visited,.tools h2 a:active{
-			color: #000;
-			text-decoration: none;
-		}
+ ::-webkit-scrollbar-thumb:hover {
+    background-color: #eee;
+}
 
-		body {
-            background-image: url(https://acg.toubiec.cn/acgurl?cid=acg&return=ssl);
-            /*overflow-y: scroll;*/
-            background-repeat: no-repeat; /*不平铺*/
-            background-attachment: fixed; /*北景图片固定*/
-            background-position: center 0px; /*居中*/
-       }
-       .header,.footer,.tools-footer{
-           background: rgba(255,255,255,.8);
-           padding: 20px;
-	   }
-	   .tools h2{
-		   font-size: 26px;
-	   }
-	   .tools p{
-		font-size: 13px;
-	}
+body {
+    background: #fff;
+    /*min-height: 1000px;*/
+    overflow-y: scroll;
+}
+
+#wrap {
+    margin-top: 80px;
+    /*min-height: 1000px;*/
+}
+
+
+/*全局结束*/
+
+.header-bar {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    /* box-shadow: 0px 0px 5px rgba(0,0,0,0.5); */
+}
+
+.kaygb {
+    line-height: 50px;
+    font-size: 1.2em;
+    color: #000;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.kaygb:hover,
+.kaygb:link,
+.kaygb:visited,
+.kaygb:active {
+    color: #000;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:link,
+a:visited,
+a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+.tools {
+    /* border: 5px solid rgba(238,238,238,0.8); */
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.tools h2 a:hover {
+    color: #f05050;
+    text-decoration: none;
+}
+
+.tools h2 a:link,
+.tools h2 a:visited,
+.tools h2 a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+body {
+    /*overflow-y: scroll;*/
+    background-repeat: no-repeat;
+    /*不平铺*/
+    background-attachment: fixed;
+    /*北景图片固定*/
+    background-position: center 0px;
+    /*居中*/
+}
+
+.header,
+.footer,
+.tools-footer {
+    background: rgba(255, 255, 255, .8);
+    padding: 20px;
+}
+
+.tools h2 {
+    font-size: 26px;
+}
+
+.tools p {
+    font-size: 13px;
+}

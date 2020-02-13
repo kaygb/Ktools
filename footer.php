@@ -29,6 +29,16 @@
             color:red;
         }
     </style>
+
+    <script>
+    //JS监听设置网站背景
+    window.onload = function() {
+            setTimeout(function() {
+                    
+                    document.body.style.background = "url(https://acg.wgb.ink/acgurl.php)";
+            }, 2e3);
+    }
+    </script>
     
     <!--bootstrap4 js-->
         <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
