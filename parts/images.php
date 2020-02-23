@@ -7,7 +7,7 @@ include_once('../header.php');
     <div id="wrap" class="container">
         <div >
             <div class="header">
-                <h2>
+                <h2 style="text-align:center;">
                     免费图床-KAYGB
                     <!--<small class="text-muted hidden-xs">免费CDN图床 不限流量 无限外链  永久免费</small>-->
                 </h2>
