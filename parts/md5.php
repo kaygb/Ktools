@@ -22,16 +22,25 @@ include_once('../header.php');
         加密之后：
     </div>
     <p class="tools" style="color:#f05050">
-        <?php
-    $str = $_POST['text'];
-    if (!empty($_POST['text'])) {
-        echo md5($str);
-        
-        exit;
-    }else {
-        echo "请输入需要加密的内容，将在这里显示结果";
+    <textarea type="text" name="" id="" cols="80" rows="" class="">
+
+    <?php
+    md5_php();
+    function md5_php(){
+        $str = $_POST['text'];
+        if (!empty($_POST['text'])) {
+            echo md5($str);
+            
+            exit;
+        }else {
+            echo "请输入需要加密的内容，将在这里显示结果";
+        }
     }
+    
     ?>
+
+    </textarea>
+    
     </p>
     
 </div>

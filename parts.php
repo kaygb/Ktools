@@ -38,6 +38,12 @@
             </div>
         </div>
 
+        <div class="col-md-4">
+            <div class="tools">
+                <h2><a class="" href="<?php constant("TOOLS_URL"); ?>/parts/password.php">随机强密码</a></h2>
+                <p>获取随机强密码</p>
+            </div>
+        </div>
     </div>
 
 
