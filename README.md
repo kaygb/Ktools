@@ -21,3 +21,5 @@ $config_ktools_password = "123123"; //状态监控默认访问密码
 $config_customurl = false;    //是否开启自定义域名，true/false
 $config_ktools_custom_url =  "";    //自定义域名，上方配置填 true 之后填入此项
 ~~~
+
+[![](https://data.jsdelivr.com/v1/package/gh/kaygb/ktools/badge)](https://www.jsdelivr.com/package/gh/kaygb/ktools)
