@@ -3,9 +3,9 @@
 $config_ktools_password = "123123"; //状态监控访问密码
 $config_customurl = false;    //是否开启自定义域名，true/false，样式错误请开启
 $config_ktools_custom_url =  "";    //自定义域名，上方配置填 true 之后填入此项
+$ktools_visitor = false;    // 访问者数据统计开关，（实验性功能，如有问题请关闭）
 
 // 数据库信息
-$ktools_visitor = false;// 访问者数据统计开关
 $servername = "localhost";  //数据库地址
 $username = "ktools";       //数据库用户名
 $password = "ktools";       //数据库密码
