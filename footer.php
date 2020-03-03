@@ -5,8 +5,8 @@
             <div class="col-md-12 tools-footer">
             &copy; <?php echo Date('Y'); ?>
             <a href="https://github.com/kaygb/Ktools" target="_blank"> Ktools</a> | 
-                Powered By <a href="https://kaygb.top" target="_blank">KAYGB</a> | 
-                ImagesAPI: <a href="https://www.toubiec.cn/164.html" target="_blank" rel="nofollow">苏晓晴</a> | 
+                Powered By <a href="https://eas1.cn" target="_blank">风也温柔</a> | 
+                ImagesAPI: <a href="https://acg.wgb.ink" target="_blank" rel="nofollow">随机图片</a> | 
                 <span>持续开发中。。。</span><br>
                 <?php include_once('config.php');
 
