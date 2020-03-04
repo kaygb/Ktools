@@ -1,7 +1,9 @@
 <?php
 ?>
+
 <div id="wrap" class="container">
     <div class="row">
+    <div id="notice">背景正在加载中！</div>
         <div class="col-md-4">
             <div class="tools">
                 <h2><a class="" href="<?php constant("TOOLS_URL"); ?>/parts/md5.php">MD5加密</a></h2>

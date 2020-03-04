@@ -36,6 +36,9 @@
             setTimeout(function() {
                     
                     document.body.style.background = "url(https://acg.wgb.ink/acgurl.php)";
+                    let notice =  document.getElementById("notice");
+                    notice.innerHTML = "加载完成";
+                    notice.style.display = 'none';
             }, 2e3);
     }
     </script>

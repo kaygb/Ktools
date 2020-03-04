@@ -134,3 +134,18 @@ body {
 .tools p {
     font-size: 13px;
 }
+
+#notice {
+    position: fixed;
+    width: 200px;
+    margin: auto;
+    top: 10%;
+    left: 0;
+    right: 0;
+    background: rgba(72, 255, 0, .5);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    z-index: 9999;
+    display: block;
+}
