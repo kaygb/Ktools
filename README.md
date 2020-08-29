@@ -32,3 +32,4 @@ $ktools_visitor = false;    // 访问者数据统计开关，（实验性功能�
 ~~~
 
 [![](https://data.jsdelivr.com/v1/package/gh/kaygb/ktools/badge)](https://www.jsdelivr.com/package/gh/kaygb/ktools)
+[![](https://img.shields.io/github/license/kaygb/kaygb)](https://github.com/kaygb/Ktools/blob/master/LICENSE)
