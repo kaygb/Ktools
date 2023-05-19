@@ -1,7 +1,7 @@
 # Ktools
 ## 介绍
 一款基于PHP开发的在线工具箱
-演示地址：[Ktools在线工具箱](https://tools.kaygb.top)
+
 ### 现有功能
 - MD5加密
 - 在线FTP（基于net2ftp）
